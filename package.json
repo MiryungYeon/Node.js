@@ -1,0 +1,21 @@
+{
+  "name": "api_service",
+  "version": "1.0.0",
+  "description": "API service of project.",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://110.45.218.86:7444/cmb/api_service.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
