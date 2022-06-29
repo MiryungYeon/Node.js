@@ -21,7 +21,7 @@ function gen_sql_insert(header){
         array[i] = "$"+(i+1);
     }
     array = array.toString()
-    var sql = 'INSERT INTO seawater ("'+header.join('","')+'") VALUES('+array+') RETURNING *';
+    var sql = 'INSERT INTO table ("'+header.join('","')+'") VALUES('+array+') RETURNING *';
     return sql
 }
 
